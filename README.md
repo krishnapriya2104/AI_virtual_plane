@@ -19,15 +19,11 @@ Programming & Libraries:
 * NumPy
 * PyGame or OpenCV (for sound effects and visuals)
 * TensorFlow / Keras (if AI model used for gesture recognition)
-Frameworks & Tools:
-* Streamlit
 
   ai-virtual-plane/
 │
-├── app.py              # Streamlit code
-├── model/              # Trained gesture recognition model
-├── data/               # Gesture dataset (if any)
-├── sounds/             # Sound effects for actions
-├── notebooks          # Experimentation and testing
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+├── virtual_plane.ipynb     #VS Code(main code)
+├── circle_sound.ogg        #sound effect for circle
+├── rectangle_sound.ogg     #sound effect for rectangle
+├── eraser_sound.ogg        # Sound effects for eraser
+└── README.md               # Project documentation
